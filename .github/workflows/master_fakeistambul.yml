@@ -32,4 +32,4 @@ jobs:
         app-name: 'fakeistambul'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_94e1781114d54da2a0436306281e22a3 }}
-        package: .
+        package: ./dist/
